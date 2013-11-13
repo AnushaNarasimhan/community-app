@@ -989,7 +989,8 @@
   "label.checkedfrom":"Checked From",
   "label.checkedto":"Checked To",
   "label.savingsaccountno":"Savings Account No",
-
+  "label.action.date":"Date",
+  
   "#ClosureAccount":"....",
   "link.accountclosure":"Accounts Closure",
   "label.viewclosure":"View Account Closure",

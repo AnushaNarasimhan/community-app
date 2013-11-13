@@ -112,6 +112,7 @@
                 <th>{{'label.user' | translate}}</th>
                 <th>{{'label.action' | translate}}</th>
                 <th>{{'label.entity' | translate}}</th>
+                <th>{{'label.action.date' | translate}}</th>
                 <th></th>
             </tr>
             </thead>
@@ -122,6 +123,7 @@
                 <td>{{data.maker}}</td>
                 <td>{{data.actionName}}</td>
                 <td>{{data.entityName}}</td>
+                <td>{{data.madeOnDate | DateFormat}}</td>
                 <td><a href="#/viewaudit/{{data.id}}" class="pointer required">{{'label.details' | translate}}</a></td>
             </tr>
             </tbody>
